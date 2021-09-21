@@ -58,7 +58,7 @@ if (Config.WORKTYPE == 'private') {
         
 // EXPORTING
         reply = await message.client.sendMessage(message.jid,' 𝚄𝙿𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙼𝙴𝙳𝙸𝙰 🤗',MessageType.text);
-        await message.client.sendMessage(message.jid, Buffer(respovideo.data), MessageType.video, {mimetype: Mimetype.mp4, caption: '◄━━━━━━━⦁⦁ *ᴍᴀᴅᴇ ʙʏ ᴡʜɪᴛᴇ ᴅᴇᴠɪʟ* ⦁⦁━━━━━━━━►'})
+        await message.client.sendMessage(message.jid, Buffer(respovideo.data), MessageType.video, {mimetype: Mimetype.mp4, caption: '◄━━⦁⦁ *ᴍᴀᴅᴇ ʙʏ ᴡʜɪᴛᴇ ᴅᴇᴠɪʟ* ⦁⦁━━►'})
 
         
     }));
@@ -103,8 +103,8 @@ else if (Config.WORKTYPE == 'public') {
         var respovideo = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
         
 // EXPORTING
-        reply = await message.client.sendMessage(message.jid,' 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙼𝙴𝙳𝙸𝙰 🚀',MessageType.text);
-        await message.client.sendMessage(message.jid, Buffer(respovideo.data), MessageType.video, {mimetype: Mimetype.mp4, caption: '◄━━━━━━━⦁⦁ * 𝙼𝙰𝙳𝙴 𝙱𝚈 𝚂𝙷𝙰𝙷𝙸𝙳 𝚂𝙴𝚁* ⦁⦁━━━━━━━━►',})
+        reply = await message.client.sendMessage(message.jid,' 𝚄𝙿𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙼𝙴𝙳𝙸𝙰 🤗',MessageType.text);
+        await message.client.sendMessage(message.jid, Buffer(respovideo.data), MessageType.video, {mimetype: Mimetype.mp4, caption: '◄━━⦁⦁ *𝙼𝙰𝙳𝙴 𝙱𝚈 𝚂𝙷𝙰𝙷𝙸𝙳 𝚂𝙴𝚁* ⦁⦁━━►',})
 
     }));
 
