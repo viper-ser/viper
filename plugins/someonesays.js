@@ -36,7 +36,7 @@ Shazz.addCommand({ pattern: 'animesay ?(.*)', fromMe: false, dontAddCommandList:
 
     }));
 
-ShazZ.addCommand({ pattern: 'changesay ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+Shazz.addCommand({ pattern: 'changesay ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
         if (match[1] === '') return await message.sendMessage(ll);
 
