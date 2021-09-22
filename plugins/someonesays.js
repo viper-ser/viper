@@ -12,10 +12,8 @@ const { MessageType, MessageOptions, Mimetype } = require('@adiwajshing/baileys'
 const fs = require('fs');
 const axios = require('axios');
 const Config = require('../config');
-
-const Language = require('../language');
-
-const Lang = Language.getString('ttp');
+const ll ="*Need some Word*"
+const Ln = "*▷🪐നിങ്ങൾ ആഗ്രഹിക്കുന്ന രീതിയിൽ മെമ്മുകൾ ഇച്ഛാനുസൃതമാക്കാൻ മെമ്മെ ലിസ്റ്റ്◁* "
 const code = "*╔═════◉ 𝙻𝚄𝚃𝚃𝙰𝙿𝙸 ◉═════╗*\n           𝚂𝙷𝙰𝙷𝙸𝙳 𝚂𝙴𝚁😈\n*╚══▣══◉❖𝙿𝙰𝙲𝙺𝚂❖◉══▣══╝*\n\n*💠.animesay        ❴your text❵*\n*💠.changesay        ❴your text❵*\n*💠.trumpsay        ❴your text❵*\n*💠.miasay        ❴your text❵*\n*╚═══❖══▣══▣══❖═══╝*\n\n*▷𝙲𝙾𝙳𝙴𝙳 𝙱𝚈: 𝚂𝙷𝙰𝙷𝙸𝙳 𝚂𝙴𝚁😈*"
 
 if (Config.WORKTYPE == 'public') {
@@ -28,9 +26,9 @@ if (Config.WORKTYPE == 'public') {
   
   }));
 
-Shazz.addCommand({ pattern: 'animesay ?(.*)', fromMe: true, desc: Lang.ANIME_DESC }, (async (message, match) => {
+Shazz.addCommand({ pattern: 'animesay ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
-        if (match[1] === '') return await message.sendMessage(Lang.NEED_WORD);
+        if (match[1] === '') return await message.sendMessage(ll);
 
         var ttinullimage = await axios.get(`https://nekobot.xyz/api/imagegen?type=kannagen&text=${match[1].replace(/Ö/g, "%C3%96").replace(/ö/g, "%C3%B6").replace(/ü/g, "%C3%BC").replace(/Ü/g, "%C3%9C").replace(/Ğ/g, "%C4%9E").replace(/ğ/g, "%C4%9F").replace(/ş/g, "%C5%9F").replace(/Ş/g, "%C5%9E").replace(/ç/g, "%C3%A7").replace(/Ç/g, "%C3%87").replace(/ı/g, "%C4%B1").replace(/i/g, "%69").replace(/"/g, "%22").replace(/İ/g, "%C4%B0")}&raw=1`, { responseType: 'arraybuffer' })
 
@@ -38,9 +36,9 @@ Shazz.addCommand({ pattern: 'animesay ?(.*)', fromMe: true, desc: Lang.ANIME_DES
 
     }));
 
-ShazZ.addCommand({ pattern: 'changesay ?(.*)', fromMe: true, desc: Lang.CHANGE_DESC }, (async (message, match) => {
+ShazZ.addCommand({ pattern: 'changesay ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
-        if (match[1] === '') return await message.sendMessage(Lang.NEED_WORD);
+        if (match[1] === '') return await message.sendMessage(ll);
 
         var ttinullimage = await axios.get(`https://nekobot.xyz/api/imagegen?type=changemymind&text=${match[1].replace(/Ö/g, "%C3%96").replace(/ö/g, "%C3%B6").replace(/ü/g, "%C3%BC").replace(/Ü/g, "%C3%9C").replace(/Ğ/g, "%C4%9E").replace(/ğ/g, "%C4%9F").replace(/ş/g, "%C5%9F").replace(/Ş/g, "%C5%9E").replace(/ç/g, "%C3%A7").replace(/Ç/g, "%C3%87").replace(/ı/g, "%C4%B1").replace(/i/g, "%69").replace(/"/g, "%22").replace(/İ/g, "%C4%B0")}&raw=1`, { responseType: 'arraybuffer' })
 
@@ -48,9 +46,9 @@ ShazZ.addCommand({ pattern: 'changesay ?(.*)', fromMe: true, desc: Lang.CHANGE_D
 
     }));
 
-Shazz.addCommand({ pattern: 'miasay ?(.*)', fromMe:  true, desc: Lang.MIA_DESC }, (async (message, match) => {
+Shazz.addCommand({ pattern: 'miasay ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
-        if (match[1] === '') return await message.sendMessage(need);
+        if (match[1] === '') return await message.sendMessage(ll);
 
         var ttinullimage = await axios.get(`https://api.zeks.xyz/api/phub?apikey=4PXD3f97yHgcO8aOD5GGIsEJB6l&img=https://www.filmibeat.com/wimgm/500x70/mobi/2017/11/mia-khalifa_1510989398130.jpg&username=Mia%20Khalifa&msg=${encodeURIComponent(match[1])}`, { responseType: 'arraybuffer' })
 
@@ -58,9 +56,9 @@ Shazz.addCommand({ pattern: 'miasay ?(.*)', fromMe:  true, desc: Lang.MIA_DESC }
 
     }));
 
-Shazz.addCommand({ pattern: 'trumpsay ?(.*)', fromMe: true, desc: Lang.TRUMP_DESC }, (async (message, match) => {
+Shazz.addCommand({ pattern: 'trumpsay ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
 
-        if (match[1] === '') return await message.sendMessage(Lang.NEED_WORD);
+        if (match[1] === '') return await message.sendMessage(ll);
 
         var ttinullimage = await axios.get(`https://nekobot.xyz/api/imagegen?type=trumptweet&text=${match[1].replace(/Ö/g, "%C3%96").replace(/ö/g, "%C3%B6").replace(/ü/g, "%C3%BC").replace(/Ü/g, "%C3%9C").replace(/Ğ/g, "%C4%9E").replace(/ğ/g, "%C4%9F").replace(/ş/g, "%C5%9F").replace(/Ş/g, "%C5%9E").replace(/ç/g, "%C3%A7").replace(/Ç/g, "%C3%87").replace(/ı/g, "%C4%B1").replace(/i/g, "%69").replace(/"/g, "%22").replace(/İ/g, "%C4%B0")}&raw=1`, { responseType: 'arraybuffer' })
 
