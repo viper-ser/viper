@@ -1,3 +1,10 @@
+<div align="center">
+<a href="https://bit.ly/3koZRGY"><img src="https://fontmeme.com/permalink/210922/f8370cd4e9027b35559ba66e0aa71ac4.png" alt="google-font" border="0"></a>
+<div align="center">
+  <img border-radius: 15px src="https://i.imgur.com/f8s4bDO.jpeg" width="200" height="200"/>
+</p>
+
+  
 ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Lemon+milk&color=F70000&lines=Uyyo+Ithaara+vannekane;Created+by+Shahid+Ser;This+is+a+normal+whatsapp+Bot+with+media+clips;With+more+features)](https://git.io/typing-svg)
 
 
