@@ -40,6 +40,9 @@
             "ISADMIN": "*Given user is a admin*",
             "WARNING": "```⚠️WARNING⚠️\nUser      : @{}\nReason    : {}\nRemaining : {}```"
         },
+        "menu": {
+            "MENU": "It sends menu."
+        },
         "admin": {
             "BAN_DESC": "Ban someone in the group. Reply to message or tag a person to use command.",
             "IM_NOT_ADMIN": "ꜱᴏʀʀʏ ᴀᴍ ɴᴏᴛ ᴀᴅᴍɪɴ",
