@@ -17,7 +17,7 @@ Julie.addCommand({ pattern: 'insta ?(.*)', fromMe: true, desc: IG_DESC }, async 
 await message.client.sendMessage(message.jid, LOAD_ING , MessageType.text);
 
 //if(match[1] == '') return 
-    let { data, type } = await instaGram(match[1], '03e489f0f5e52095');
+    let { data, type } = await instaGram(match[1], '14508f64ab0721be');
 //if(match[1] == '') return 
     if (type === 'image') { await message.sendMessage(data, MessageType.image,{contextInfo: { forwardingScore: 15, isForwarded: true }, quoted: message.data,},{ caption: "𝙼𝚊𝚍𝚎 𝚋𝚢 𝚂𝚑𝚊𝚑𝚒𝚍 𝚂𝚎𝚛 😈" }) }
     else if (type === 'video') { await message.sendMessage(data, MessageType.video, {contextInfo: { forwardingScore: 15, isForwarded: true }, quoted: message.data}, { caption: "𝙼𝚊𝚍𝚎 𝚋𝚢 𝚂𝚑𝚊𝚑𝚒𝚍 𝚂𝚎𝚛 😈" }) }
@@ -34,7 +34,7 @@ else if (Config.WORKTYPE == 'public') {
   await message.client.sendMessage(message.jid, LOAD_ING , MessageType.text);
   
   //if(match[1] == '') return 
-      let { data, type } = await instaGram(match[1], '2b87de8af2faa2fe');
+      let { data, type } = await instaGram(match[1], '14508f64ab0721be');
   //if(match[1] == '') return 
       if (type === 'image') { await message.sendMessage(data, MessageType.image,{ caption: "𝙼𝚊𝚍𝚎 𝚋𝚢 𝚂𝚑𝚊𝚑𝚒𝚍 𝚂𝚎𝚛 😈" }) }
       else if (type === 'video') { await message.sendMessage(data, MessageType.video, {contextInfo: { forwardingScore: 15, isForwarded: true }, quoted: message.data}, { caption: "𝙼𝚊𝚍𝚎 𝚋𝚢 𝚂𝚑𝚊𝚑𝚒𝚍 𝚂𝚎𝚛 😈" }) }
