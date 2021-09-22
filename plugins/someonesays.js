@@ -13,12 +13,12 @@ const fs = require('fs');
 const axios = require('axios');
 const Config = require('../config');
 const ll ="*Need some Word*"
-const Ln = "*▷🪐നിങ്ങൾ ആഗ്രഹിക്കുന്ന രീതിയിൽ മെമ്മുകൾ ഇച്ഛാനുസൃതമാക്കാൻ മെമ്മെ ലിസ്റ്റ്◁* "
+const Ln = "*▷🪐𝚂𝙾𝙼𝙴 𝚂𝙾𝙼𝙴𝙾𝙽𝙴𝚂𝙰𝚈𝚂 𝙻𝙸𝚂𝚃◁* "
 const code = "*╔═════◉ 𝙻𝚄𝚃𝚃𝙰𝙿𝙸 ◉═════╗*\n           𝚂𝙷𝙰𝙷𝙸𝙳 𝚂𝙴𝚁😈\n*╚══▣══◉❖𝙿𝙰𝙲𝙺𝚂❖◉══▣══╝*\n\n*💠.animesay        ❴your text❵*\n*💠.changesay        ❴your text❵*\n*💠.trumpsay        ❴your text❵*\n*💠.miasay        ❴your text❵*\n*╚═══❖══▣══▣══❖═══╝*\n\n*▷𝙲𝙾𝙳𝙴𝙳 𝙱𝚈: 𝚂𝙷𝙰𝙷𝙸𝙳 𝚂𝙴𝚁😈*"
 
 if (Config.WORKTYPE == 'public') {
     
-      Asena.addCommand({pattern: 'someonesay', fromMe: false, desc: Ln,}, (async (message, match) => {
+      Shazz.addCommand({pattern: 'someonesay', fromMe: false, desc: Ln,}, (async (message, match) => {
 
     await message.client.sendMessage(
   
