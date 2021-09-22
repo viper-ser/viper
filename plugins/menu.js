@@ -3,9 +3,9 @@ const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
 
 const Language = require('../language');
-const Lang = Language.getString('wallpaper');
+const Lang = Language.getString('menu');
 
-Shazz.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (message, match) => {
+Shazz.addCommand({pattern: 'menu', fromMe: false, desc: Lang.MENU}, (async (message, match) => {
 
     var r_text = new Array ();
     
