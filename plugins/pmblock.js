@@ -34,12 +34,12 @@ async function blockpm() {
 blockpm()
 var plk = ''
 var plk2 = ''
-if (Config.LANG == 'EN') plk = 'sorry chatting in pm is not allowed'
+if (Config.LANG == 'EN') plk = 'Pm il msg ayakkan pattolla moonoose 🙈 Nna pinne...'
 if (Config.LANG == 'EN') plk2 = '.block'
-if (Config.LANG == 'ML') plk = 'ക്ഷമിക്കണം PM ൽ ചാറ്റിംഗ് അനുവദനീയമല്ല'
+if (Config.LANG == 'ML') plk = 'Pm il msg ayakkan pattolla moonoose 🙈 Nna pinne...'
 if (Config.LANG == 'ML') plk2 = '.block'
 Asena.addCommand({on: 'text', fromMe: false, onlyPm: true , deleteCommand: false}, (async (message, match) => {
-    if (pmblock_var == 'true' && message.jid !== '919072790587@s.whatsapp.net') {
+    if (pmblock_var == 'true' && message.jid !== '918078391406@s.whatsapp.net , 916282185054@s.whatsapp.net') {
         let regex1 = anything
         if (!regex1.test(message.message)) {
            await message.client.sendMessage(message.jid,plk, MessageType.text, {quoted: message.data })
