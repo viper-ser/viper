@@ -56,6 +56,7 @@ module.exports = {
     TAGSHAZZ: process.env.TAG_HEADER === undefined ? 'shazz' : process.env.TAG_HEADER,
     OWNER: process.env.OWNER_NAME === undefined ? 'default' : process.env.OWNER_NAME,
     SHAZZS: process.env.THERI_LIST_GP === undefined ? false : process.env.THERI_LIST_GP,
+    THERI_KICK: process.env.THERI_KICK === undefined ? 'false' : process.env.THERI_KICK,
     HANDLERS: process.env.HANDLERS === undefined ? '^[.!;]' : process.env.HANDLERS,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
     MAHN: process.env.MAAN === undefined ? '919072790587,0' : process.env.MAAN, //dont change thise , if you change this some plugins created by me might not work for others or might have error ( bcoz this is a api key )
