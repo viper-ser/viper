@@ -909,7 +909,7 @@ else if (config.WORKTYPE == 'public') {
                 writer.addTag();
 
                 
-                await message.client.sendMessage(message.jid,Buffer.from(writer.arrayBuffer), MessageType.document, {filename: '✯ɪͥᴛͭsᷤᴍͫᴇͤ☚⃟፝✪SHAZZ✯😈' + '.mp3', mimetype: 'audio/mpeg', quoted: message.data});
+                await message.client.sendMessage(message.jid,Buffer.from(writer.arrayBuffer), MessageType.document, {filename: '✯ɪͥᴛͭsᷤᴍͫᴇͤ☚⃟፝✪ꜱʜᴀᴢᴢ✯😈' + '.mp3', mimetype: 'audio/mpeg', quoted: message.data});
             });
     }));
 
