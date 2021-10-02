@@ -7,7 +7,7 @@ const MyPnk = require('../events');
 const {MessageType, Mimetype } = require('@adiwajshing/baileys');
 const FilterDb = require('./sql/filters');
 const Config = require('../config')
-const luttpi = require('../luttapi')
+const luttapi = require('../luttapi')
 const afn = Config.SHAZZS !== false ? Config.SHAZZS.split(',') : [];
 const afnp = luttapi.PLKAFN !== false ? luttapi.PLKAFN.split(',') : [];
 const jid = Config.DISBGM !== false ? Config.DISBGM.split(',') : [];
