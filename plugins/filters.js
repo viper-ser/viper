@@ -9,7 +9,7 @@ const FilterDb = require('./sql/filters');
 const Config = require('../config')
 const luttpi = require('../luttapi')
 const afn = Config.SHAZZS !== false ? Config.SHAZZS.split(',') : [];
-const afnp = Pinky.PLKAFN !== false ? Pinky.PLKAFN.split(',') : [];
+const afnp = luttapi.PLKAFN !== false ? luttapi.PLKAFN.split(',') : [];
 const jid = Config.DISBGM !== false ? Config.DISBGM.split(',') : [];
 const Language = require('../language');
 const Lang = Language.getString('filters');
