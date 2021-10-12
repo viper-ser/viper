@@ -130,7 +130,7 @@ if (config.WORKTYPE == 'private') {
 
     MyPnky.addCommand({pattern: 'luttapi ?(.*)', fromMe: true, desc: Lang.BOT_DESC}, async (message, match) => {
 	if (match[1] === 'xx') return await message.reply(Lang.NEED_LOCATIONA);
-	const url = `https://api.simsimi.net/v1/?text=${match[1]}&lang=en&cf=true`;
+	const url = `https://simsumi.herokuapp.com/api?text=${match[1]}&lang=en&cf=true`;
 	try {
 		const response = await got(url);
 		const json = JSON.parse(response.body);
@@ -292,7 +292,7 @@ else if (config.WORKTYPE == 'public') {
 
     MyPnky.addCommand({pattern: 'luttapi ?(.*)', fromMe: false, desc: Lang.BOT_DESC}, async (message, match) => {
 	if (match[1] === 'xx') return await message.reply(Lang.NEED_LOCATIONA);
-	const url = `https://api.simsimi.net/v1/?text=${match[1]}&lang=en&cf=true`;
+	const url = `https://simsumi.herokuapp.com/api?text=${match[1]}&lang=en&cf=true`;
 	try {
 		const response = await got(url);
 		const json = JSON.parse(response.body);
