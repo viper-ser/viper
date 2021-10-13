@@ -10,7 +10,7 @@ const exec = require('child_process').exec;
 const os = require("os");
 const fs = require('fs');
 const Config = require('../config')
-const Pinky = require('../pinky')
+const Luttapi = require('../luttapi')
 const Language = require('../language');
 const Lang = Language.getString('evaluators');
 const SLang = Language.getString('conventer');
@@ -243,12 +243,12 @@ MyPnky.addCommand({on: 'text', fromMe: false,onlyGroup: true, deleteCommand: fal
         let regex7 = new RegExp('Who are you ')
         let regex8 = new RegExp('movie ')
         let regex9 = new RegExp('Git ')
-        let regex10 = new RegExp(Pinky.OA_NAME)
+        let regex10 = new RegExp(Luttapi.OA_NAME)
         if (regex1.test(message.message)) {              
             await message.client.sendMessage(message.jid,plk1, MessageType.text, {quoted: message.data })
         } 
         else if (regex2.test(message.message)) {
-           await message.client.sendMessage(message.jid,plk2 + Pinky.OB_NAME, MessageType.text, {quoted: message.data })
+           await message.client.sendMessage(message.jid,plk2 + Luttapi.OB_NAME, MessageType.text, {quoted: message.data })
         }
          else if (regex3.test(message.message)) {
             await message.client.sendMessage(message.jid,plk3, MessageType.text, {quoted: message.data })
@@ -272,7 +272,7 @@ MyPnky.addCommand({on: 'text', fromMe: false,onlyGroup: true, deleteCommand: fal
    await message.client.sendMessage(message.jid,plk9, MessageType.text, {quoted: message.data })
         }
         else if (regex10.test(message.message)) {
-   await message.client.sendMessage(message.jid,Pinky.OA_REPLY, MessageType.text, {quoted: message.data })
+   await message.client.sendMessage(message.jid,Luttapi.OA_REPLY, MessageType.text, {quoted: message.data })
         }      
    }
 }));
@@ -335,7 +335,7 @@ MyPnky.addCommand({on: 'text', fromMe: false,onlyPm:true , deleteCommand: false}
             await message.client.sendMessage(message.jid,plk1, MessageType.text, {quoted: message.data })
         } 
         else if (regex2.test(message.message)) {
-           await message.client.sendMessage(message.jid,plk2 + Pinky.OB_NAME, MessageType.text, {quoted: message.data })
+           await message.client.sendMessage(message.jid,plk2 + Luttapi.OB_NAME, MessageType.text, {quoted: message.data })
         }
          else if (regex3.test(message.message)) {
             await message.client.sendMessage(message.jid,plk3, MessageType.text, {quoted: message.data })
@@ -359,7 +359,7 @@ MyPnky.addCommand({on: 'text', fromMe: false,onlyPm:true , deleteCommand: false}
    await message.client.sendMessage(message.jid,plk9, MessageType.text, {quoted: message.data })
         }
         else if (regex10.test(message.message)) {
-   await message.client.sendMessage(message.jid,Pinky.OA_REPLY, MessageType.text, {quoted: message.data })
+   await message.client.sendMessage(message.jid,Luttapi.OA_REPLY, MessageType.text, {quoted: message.data })
         }      
    }
 }));
@@ -422,7 +422,7 @@ MyPnky.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mes
             await message.client.sendMessage(message.jid,plk1, MessageType.text, {quoted: message.data })
         } 
         else if (regex2.test(message.message)) {
-           await message.client.sendMessage(message.jid,plk2 + Pinky.OB_NAME, MessageType.text, {quoted: message.data })
+           await message.client.sendMessage(message.jid,plk2 + Luttapi.OB_NAME, MessageType.text, {quoted: message.data })
         }
          else if (regex3.test(message.message)) {
             await message.client.sendMessage(message.jid,plk3, MessageType.text, {quoted: message.data })
@@ -446,7 +446,7 @@ MyPnky.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (mes
    await message.client.sendMessage(message.jid,plk9, MessageType.text, {quoted: message.data })
         }
         else if (regex10.test(message.message)) {
-   await message.client.sendMessage(message.jid,Pinky.OA_REPLY, MessageType.text, {quoted: message.data })
+   await message.client.sendMessage(message.jid,Luttapi.OA_REPLY, MessageType.text, {quoted: message.data })
         }      
    }
 }));
