@@ -1,4 +1,6 @@
+
 /* created by afnanplk
+re edited by SHAHID-DEVIL
 */
 
 const MyPnky = require('../events');
@@ -41,4 +43,5 @@ MyPnky.addCommand({pattern: 'device ?(.*)', fromMe: false, desc: Lang.DEVICE , d
 		return await message.client.sendMessage(message.jid, Lang.NOT_FOUNDMD, MessageType.text);
 	}
 });	
+
 }
