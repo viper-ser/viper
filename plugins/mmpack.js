@@ -14,7 +14,7 @@ const axios = require('axios');
 const Config = require('../config');
 const ll ="*Need some Word*"
 const Ln = "*▷🪐നിങ്ങൾ ആഗ്രഹിക്കുന്ന രീതിയിൽ മെമ്മുകൾ ഇച്ഛാനുസൃതമാക്കാൻ മെമ്മെ ലിസ്റ്റ്◁* "
- const code = "*╔═════◉ 𝙻𝚄𝚃𝚃𝙰𝙿𝙸 ◉═════╗*\n           𝙻𝚞𝚝𝚝𝚊𝚙𝚒😈\n*╚══▣══◉𝙼𝙼𝙿𝙰𝙲𝙺𝚂◉══▣══╝*\n\n*💠.my3            ❴your text❵*\n*💠.fuck         ❴your text❵*\n*💠.hii         ❴your text❵*\n*💠.sir            ❴your text❵*\n*💠.yasai             ❴your text❵*\n*💠.hapoi             ❴your text❵*\n*💠.uddika        ❴your text❵*\n*💠.aah      ❴your text❵*\n*💠.aah          ❴your text❵*\n*💠.asai            ❴your text❵*\n*💠.quby1         ❴your text❵*\n*💠.quby2         ❴your text❵*\n*💠.quby3              ❴your text❵*\n*💠.quby4          ❴your text❵*\n*💠.cat1       ❴your text❵*\n*💠.cat2         ❴your text❵*\n*💠.cat3        ❴your text❵*\n*💠.cat4            ❴your text❵*\n*💠.trollikka1             ❴your text❵*\n*💠.trollikka2             ❴your text❵*\n*💠.trollikka3        ❴your text❵*\n*💠.trollikka4      ❴your text❵*\n*💠.doggy1          ❴your text❵*\n*💠.doggy2            ❴your text❵*\n*💠.doggy3         ❴your text❵*\n*💠.doggy4         ❴your text❵*\n*💠.cry              ❴your text❵*\n*💠.disaster         ❴your text❵*\n*💠.yeah            ❴your text❵*\n*💠.innocent         ❴your text❵*\n*💠.jagathy         ❴your text❵*\n*💠.amboo            ❴your text❵*\n*╚═══❖══▣══▣══❖═══╝*\n\n*▷𝙲𝚘𝚍𝚎𝚍 𝚋𝚢: 𝚂𝚑𝚊𝚑𝚒𝚍 𝚂𝚎𝚛😈*"
+ const code = "*╔═════◉ 𝙻𝚄𝚃𝚃𝙰𝙿𝙸 ◉═════╗*\n           𝙻𝚞𝚝𝚝𝚊𝚙𝚒😈\n*╚══▣══◉𝙼𝙼𝙿𝙰𝙲𝙺𝚂◉══▣══╝*\n\n*💠.my3            ❴your text❵*\n*💠.fuck         ❴your text❵*\n*💠.hii         ❴your text❵*\n*💠.sir            ❴your text❵*\n*💠.yasai             ❴your text❵*\n*💠.hapoi             ❴your text❵*\n*💠.uddika        ❴your text❵*\n*💠.aah      ❴your text❵*\n*💠.aah          ❴your text❵*\n*💠.asai            ❴your text❵*\n*💠.quby1         ❴your text❵*\n*💠.quby2         ❴your text❵*\n*💠.quby3              ❴your text❵*\n*💠.quby4          ❴your text❵*\n*💠.cat1       ❴your text❵*\n*💠.cat2         ❴your text❵*\n*💠.cat3        ❴your text❵*\n*💠.cat4            ❴your text❵*\n*💠.trollikka1             ❴your text❵*\n*💠.trollikka2             ❴your text❵*\n*💠.trollikka3        ❴your text❵*\n*💠.trollikka4      ❴your text❵*\n*💠.doggy1          ❴your text❵*\n*💠.doggy2            ❴your text❵*\n*💠.doggy3         ❴your text❵*\n*💠.doggy4         ❴your text❵*\n*💠.cry              ❴your text❵*\n*💠.disaster         ❴your text❵*\n*💠.yeah            ❴your text❵*\n*💠.innocent         ❴your text❵*\n*💠.jagathy         ❴your text❵*\n*💠.amboo            ❴your text❵*\n*🔮.catangry1    ❴text❵*\n*🔮.catangry2    ❴text❵*\n*🔮.catangry3    ❴text❵*\n*🔮.catangry4    ❴text❵*\n*🔮.catsed1    ❴text❵*\n*🔮.catsed2    ❴text❵*\n*🔮.catsed3    ❴text❵*\n*🔮.catsed4    ❴text❵*\n*🔮.trollettan1    ❴text❵*\n*🔮.trollettan2    ❴text❵*\n*🔮.trollettan3    ❴text❵*\n*🔮.trollettan4    ❴text❵*\n*🔮.trollvijay1    ❴text❵*\n*🔮.trollvijay2    ❴text❵*\n*🔮.trollvijay3    ❴text❵*\n*🔮.trollvijay4    ❴text❵*\n*🔮.cute1    ❴text❵*\n*🔮.cute2    ❴text❵*\n*🔮.cute3    ❴text❵*\n*🔮.cute4    ❴text❵*\n*🔮.khaby1    ❴text❵*\n*🔮.khaby2    ❴text❵*\n*🔮.khaby3    ❴text❵*\n*🔮.khaby4    ❴text❵*\n*🔮.shelby1    ❴text❵*\n*🔮.shelby2    ❴text❵*\n*🔮.shelby3    ❴text❵*\n*🔮.shelby4    ❴text❵*\n*🔮.shinchan1    ❴text❵*\n*🔮.shinchan2    ❴text❵*\n*🔮.shinchan3    ❴text❵*\n*🔮.shinchan4    ❴text❵*\n*🔮.tom1    ❴text❵*\n*🔮.tom2    ❴text❵*\n*🔮.tom3    ❴text❵*\n*🔮.tom4    ❴text❵*\n*🔮.jerry1    ❴text❵*\n*🔮.jerry2    ❴text❵*\n*🔮.jerry3    ❴text❵*\n*🔮.jerry4    ❴text❵*\n*🔮.smileinpain1    ❴text❵*\n*🔮.smileinpain2    ❴text❵*\n*🔮.smileinpain3    ❴text❵*\n*🔮.smileinpain4    ❴text❵*\n\n*╚═══❖══▣══▣══❖═══╝*\n\n*▷𝙲𝚘𝚍𝚎𝚍 𝚋𝚢: 𝚂𝚑𝚊𝚑𝚒𝚍 𝚂𝚎𝚛😈*"
 
 if (Config.WORKTYPE == 'public') {
     
@@ -343,6 +343,446 @@ Asena.addCommand({ pattern: 'amboo ?(.*)', fromMe: false, dontAddCommandList: tr
         var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=_&bottom=${encodeURIComponent(match[1])}&img=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmKLeS-tujy1aVhH2JiyAgSlQHQRvxSM-EjQ&usqp=CAU`, { responseType: 'arraybuffer' })
 
         await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, {quoted: message.data , mimetype: Mimetype.jpg, caption: Config.AFN})
+
+    }));
+
+Asena.addCommand({ pattern: 'trollettan1 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/6A4s20X.jpeg`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'trollettan2 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/g3YcSt6.jpeg`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'trollettan3 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/UUDXM5S.jpeg`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'trollettan4 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/SMxjqPU.jpeg`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'trollvijay1 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/RLfN0vQ.jpeg`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'trollvijay2 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/GdAwQXQ.jpeg`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'trollvijay3 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/oIdcRPg.jpeg`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'trollvijay4 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/Ct02AYR.jpeg`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'catangry1 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/pB8ytok.jpeg`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'catangry2 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/7J5EKhL.jpeg`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'catangry3 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/cF8ar3m.jpeg`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'catangry4 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/o2sO9of.jpeg`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'catsed1 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/IkCrMF9.png`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'catsed2 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/nPHpWzA.png`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'catsed3 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/ySAISgr.png`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'catsed4 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/aV94yVO.png`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'cute1 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/PkUGukc.png`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'cute2 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/EIEuVPq.png`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'cute3 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/IXku0wm.png`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'cute4 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/KySF0bs.png`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'khaby1 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/mdPF5wS.png`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'khaby2 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/WHfkX0X.png`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'khaby3 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/b4e0lNG.png`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'khaby4 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/yXVTYlL.png`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'shelby1 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/6MyUERE.png`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'shelby2 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/nuHwDWH.png`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'shelby3 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/Ilu5hgX.png`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'shelby4 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/T0qS3EM.png`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'smileinpain1 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/rwTwX6W.jpeg`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'smileinpain2 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/35UcFVO.png`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'smileinpain3 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/fCJM7OD.png`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'smileinpain4 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/OmIbixr.png`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'shinchan1 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/YSpBfhq.png`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'shinchan2 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/j3S2Q62.png`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'shinchan3 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/9ZXIYhh.png`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'shinchan4 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/qadGmPq.png`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'tom1 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/AUmxmKR.png`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'tom2 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/vSOHT9k.jpeg`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'tom3 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/z9eM8QO.png`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'tom4 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/jcA2egj.png`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'jerry1 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/lwwigQz.png`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'jerry2 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/Ph79HGt.png`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'jerry3 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/ML50wbX.png`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
+
+    }));
+
+Asena.addCommand({ pattern: 'jerry4 ?(.*)', fromMe: false, dontAddCommandList: true }, (async (message, match) => {
+
+        if (match[1] === '') return await message.sendMessage(ll);
+
+        var ttinullimage = await axios.get(`https://docs-jojo.herokuapp.com/api/meme-gen?top=%20&bottom=${encodeURIComponent(match[1])}&img=https://i.imgur.com/y05GNCO.png`, { responseType: 'arraybuffer' })
+
+        await message.sendMessage(Buffer.from(ttinullimage.data), MessageType.image, { mimetype: Mimetype.jpg, caption: '*тαкє тнιѕ νяσ 💝*' })
 
     }));
 
