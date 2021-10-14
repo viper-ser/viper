@@ -10,7 +10,7 @@ const {MessageType, MessageOptions, Mimetype} = require('@adiwajshing/baileys');
 const axios = require('axios');
 const hrs = new Date().getHours({ timeZone: 'Asia/Kolkata' })
 
-Shazz.addCommand({pattern: 'assist', fromMe: false, desc: 'it send bot menu'}, (async (message, match) => {
+Shazz.addCommand({pattern: 'help', fromMe: false, desc: 'it send bot menu'}, (async (message, match) => {
 
     var r_text = new Array ();
     
