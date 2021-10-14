@@ -33,7 +33,7 @@ Neotro.addCommand({pattern: 'menu', fromMe: false, dontAddCommandList: true}, (a
        const sections = [{title: "✯ɪͥᴛͭsᷤᴍͫᴇͤ☚⃟፝✪ꜱʜᴀᴢᴢ✯", rows: rows}]
        
        const button = {
-        buttonText: ᴄʟɪᴄᴋ ʜᴇʀᴇ🤗',
+        buttonText: 'ᴄʟɪᴄᴋ ʜᴇʀᴇ🤗',
         description:"*~_____😈𝗟𝗨𝗧𝗧𝗔𝗣𝗜 𝗕𝗢𝗧😈_____~*",
         sections: sections,
         listType: 1
