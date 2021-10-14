@@ -449,6 +449,7 @@
         },
         "conventer": {
             "MP4TOAUDİO_DESC": "Converts video to sound.",
+            "DOC_DESC": "CONVERT TO DOCUMENT AND ADD GIVEN NAME.",
             "MP4TOAUDİO_NEEDREPLY": "\n*You Must Reply to a Video!*\n",
             "MP4TOAUDİO": "\n```Converting Video to Audio..\n```",
             "ANİM_STİCK": "Converts animated stickers to video.",
