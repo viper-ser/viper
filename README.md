@@ -50,7 +50,7 @@ the user is responsible.
 ## 𝐋𝐚𝐭𝐞𝐬𝐭 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 🙋🏻‍♀️
 
 - ✅ Fixed insta downloader
-- ✅ list changed into luttapi
+- ✅ list changed into Viper
 - ✅ Eva Artifical Intelligence ...
 
 ```
