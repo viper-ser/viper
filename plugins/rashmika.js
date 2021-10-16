@@ -11,7 +11,7 @@ const Config = require('../config');
 
 if (Config.WORKTYPE == 'public') {
 
-    Asena.addCommand({pattern: 'rashmika', fromMe: true, desc: 'random rashmika images'}, (async (message, match) => {
+    Asena.addCommand({pattern: 'reshmika', fromMe: true, desc: 'random rashmika images'}, (async (message, match) => {
 
     var r_text = new Array ();
 
