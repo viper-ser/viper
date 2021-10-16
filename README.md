@@ -18,7 +18,7 @@
 - 🙂 I'm Aswin
 - 🚩 I'm a beginner in this field
 - 📍 From Pattambi,Palakkad,Kerala,🇮🇳
-- 🎈 People Call Me Viper-se
+- 🎈 People Call Me Viper-ser
 
 ```
 This is a modified version of WhatsAsena 1.3🙋🏻‍♀️It will be more useful to you
