@@ -15,10 +15,10 @@
 
 ## 📢Introduce myself
 
-- 🙂 I'm Shahid Shazz
+- 🙂 I'm Aswin
 - 🚩 I'm a beginner in this field
 - 📍 From Pattambi,Palakkad,Kerala,🇮🇳
-- 🏫 High School at GHSS CHUNDAMPATTA 
+- 🎈 People Call Me Viper-se
 
 ```
 This is a modified version of WhatsAsena 1.3🙋🏻‍♀️It will be more useful to you
