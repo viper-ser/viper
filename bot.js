@@ -1,6 +1,6 @@
 /* Copyright (C) 2020 Yusuf Usta.
-RECODDED BY SHAHID-DEVIL
-LUTTAPI  
+RECODDED BY VIPER-SER
+VIPER  
 */
 
 const os = require("os");
@@ -133,8 +133,8 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
         });
 
         console.log(
-            chalk.green.bold(' ʟᴜᴛᴛᴀᴘɪ ᴡᴏʀᴋɪɴɢ ' + config.WORKTYPE + ' ɴᴏᴡ 😈'));
-            await conn.sendMessage(conn.user.jid, "ʟᴜᴛᴛᴀᴘɪ ɪꜱ ᴀʟʟ ꜱᴇᴛ", MessageType.text);
+            chalk.green.bold('ＶＩＰＥＲ  ᴡᴏʀᴋɪɴɢ ' + config.WORKTYPE + ' ɴᴏᴡ 😈'));
+            await conn.sendMessage(conn.user.jid, "ＶＩＰＥＲ ɪꜱ ᴀʟʟ ꜱᴇᴛ", MessageType.text);
             await conn.sendMessage(conn.user.jid, "``` ᴡᴏʀᴋɪɴɢ " + config.WORKTYPE + "```" , MessageType.text);
     });
     
@@ -268,7 +268,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp... Please wait.')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '__LUTTAPI_😔😔_[error] ' +
+                                await conn.sendMessage(conn.user.jid, '__VIPER_😔😔_[error] ' +
                                     '\n\n*😈 ' + error + '*\n'
                                     , MessageType.text);
                             }
